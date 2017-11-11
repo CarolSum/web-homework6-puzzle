@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="puzzle.css">
+	<script type="text/javascript" src="puzzle.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="game">
+			<div id="d1" onclick="move(1)"></div>
+			<div id="d2" onclick="move(2)"></div>
+			<div id="d3" onclick="move(3)"></div>
+			<div id="d4" onclick="move(4)"></div>
+			<div id="d5" onclick="move(5)"></div>
+			<div id="d6" onclick="move(6)"></div>
+			<div id="d7" onclick="move(7)"></div>
+			<div id="d8" onclick="move(8)"></div>
+			<div id="d9" onclick="move(9)"></div>
+			<div id="d10" onclick="move(10)"></div>
+			<div id="d11" onclick="move(11)"></div>
+			<div id="d12" onclick="move(12)"></div>
+			<div id="d13" onclick="move(13)"></div>
+			<div id="d14" onclick="move(14)"></div>
+			<div id="d15" onclick="move(15)"></div>
+			
+		</div>
+		<div id="control">
+			<p>
+				<rowspan id="timeText">总用时</rowspan>
+				<rowspan id="timer"></rowspan>
+			</p>
+			<p>
+				<rowspan id="start" onclick="start()">start</rowspan>
+				<rowspan id="reset" onclick="reset()">restart</rowspan>
+			</p>
+		</div>
+	</div>
+</body>
